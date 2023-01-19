@@ -1,0 +1,75 @@
+@import url(/css/colors.css);
+@import url(/css/fonts.css);
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: var(--default-fonts);
+}
+
+#wrapper {
+	display: grid;
+	grid-auto-flow: row;
+	row-gap: 90px;
+	width: 100%;
+}
+
+@media screen and (min-width: 950px) {
+	#wrapper {
+		row-gap: 230px;
+	}
+}
+
+html {
+	font-size: 10px;
+	background-color: #000;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+input,
+textarea,
+button {
+	padding: 5px 20px;
+	font-size: 1.5rem;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+	outline: none;
+}
+
+.container {
+	max-width: 99%;
+	height: 100%;
+	margin: 10px auto;
+}
+
+*::selection {
+	text-shadow: 0 0 5px var(--selection);
+	color: var(--selection-item);
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 10px #000;
+}
+
+::-webkit-scrollbar {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(-45deg, #3043578e 45%, #6483a9 13.4%);
+	/* box-shadow: inset 1px 1px 3px white, inset 1px 1px 3px black; */
+}

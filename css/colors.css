@@ -1,0 +1,18 @@
+:root {
+	--header-bg-color: #306ef7;
+	--header-title: #fff;
+	--header-menu: #707070;
+	--header-hove-color: #3c82f4;
+	--button-hover-color: #fff;
+	--button-bg-color: #306ef7;
+	--selection: #306ef7;
+	--selection-item: #ade8f4;
+	--main-default-color: #fff;
+	--main-line-gredient_1: #fe6783;
+	--main-line-gredient_2: #ffbf84;
+	--main-button-bg: #326cf9;
+	--main-dot: #0fc65c;
+	--main-dot-shadow: #52b788;
+	--main-cards: #0a0a0a;
+	--main-cards-shadow: #373737;
+}
