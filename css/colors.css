@@ -3,6 +3,10 @@
 	--header-title: #fff;
 	--header-menu: #707070;
 	--header-hove-color: #3c82f4;
+	--header-changed_1: #ade8f4;
+	--header-changed_2: #48cae4;
+	--header-line-gredient_1: #0096c7;
+	--header-line-gredient_2: #023e8a;
 	--button-hover-color: #fff;
 	--button-bg-color: #306ef7;
 	--selection: #306ef7;
@@ -10,9 +14,11 @@
 	--main-default-color: #fff;
 	--main-line-gredient_1: #fe6783;
 	--main-line-gredient_2: #ffbf84;
-	--main-button-bg: #326cf9;
+	--main-button-bg_1: #0077b6;
+	--main-button-bg_2: #03045e;
 	--main-dot: #0fc65c;
 	--main-dot-shadow: #52b788;
-	--main-cards: #0a0a0a;
-	--main-cards-shadow: #373737;
+	--main-cards: #21252977;
+	--main-cards-shadow: #023e8a;
+	--main-card-text: #f8f9fa;
 }

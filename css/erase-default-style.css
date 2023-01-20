@@ -52,7 +52,7 @@ a:visited {
 .container {
 	max-width: 99%;
 	height: 100%;
-	margin: 10px auto;
+	margin: 0 auto;
 }
 
 *::selection {
